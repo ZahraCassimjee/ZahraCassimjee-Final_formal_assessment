@@ -65,7 +65,7 @@ color:white
     
     width: 150px;
     height: 150px;
-    background-image: url('../assets/Jane.jpg');
+    background-image: url('../assets/John.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -116,7 +116,7 @@ color:white
     
     width: 150px;
     height: 150px;
-    background-image: url('../assets/Jane.jpg');
+    background-image: url('../assets/Susan.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -130,13 +130,22 @@ color:white
     
     width: 150px;
     height: 150px;
-    background-image: url('../assets/Jane.jpg');
-    background-position: center;
-    background-size: cover;
+    background-color: #2b2b2b;
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-top: 50px;
+
+}
+.icon2{
+    width: 50px;
+    height: 50px;
+    background-image: url('../assets/add.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
 
 }
 
@@ -156,9 +165,34 @@ color: white;
 margin-left: 50px;
  }
 
+ .button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #2b2b2b;
+    border:2px solid #2b2b2b;
+   
+ }
 
+ form{
+    margin: 0 auto;
+   
+    background-color: #f7f7f7;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
 
+.input-el{
+    width:90% ;
+    height: 35px;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
 
+}
 
 
 
